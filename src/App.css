@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(16, 38, 50, 1);
+}
+
+
+  
+  .content-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .transaction-list-container,
+  .bar-graph-container {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  h2 {
+    color: #ffffff;
+  
+  }
+
+  h1 {
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .bar{
+    margin: 0 auto;
+  }
+
+  .bar-graph-container {
+    padding: 40px;
+  }

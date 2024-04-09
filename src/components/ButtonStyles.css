@@ -1,0 +1,52 @@
+/* ButtonStyles.css */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+  
+  /* Adjust other styles as needed */
+  
+  .income-button,
+  .expense-button {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px; /* Adjust this value to control the space between buttons */
+  }
+  
+  /* Apply margin to all buttons except the last one */
+  .income-button:not(:last-child),
+  .expense-button:not(:last-child) {
+    margin-right: 10px; /* Adjust this value to control the space between buttons */
+  }
+  
+  /* Add margin-right: 0 to the last button to remove extra margin */
+  .income-button:last-child,
+  .expense-button:last-child {
+    margin-right: 0;
+  }
+  
+  .income-button.active {
+    color: white;
+    background-color: rgba(18, 225, 2, 1);
+    border: 1px solid rgba(18, 225, 2, 1);
+  }
+  
+  .expense-button.active {
+    color: white;
+    background-color: rgba(220, 24, 2, 1);
+    border: 1px solid rgba(220, 24, 2, 1);
+  }
+  
+  .income-button:hover,
+  .expense-button:hover,
+  .income-button:active,
+  .expense-button:active {
+    transform: scale(1.05);
+  }
+  

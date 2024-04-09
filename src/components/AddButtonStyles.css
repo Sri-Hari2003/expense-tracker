@@ -1,0 +1,70 @@
+
+
+  
+.prompt {
+    position: fixed;
+   
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Your prompt styles */
+  
+  
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .circle svg {
+    width: 30px;
+    height: 30px;
+  }
+  
+
+  
+  .type-options {
+    display: flex;
+    flex-direction: column; /* Display radio buttons vertically */
+    margin-bottom: 10px;
+  }
+    
+  .type-options div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .type-options input[type='radio'] {
+    margin-right: 5px;
+  }
+  
+  .add {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .add:hover {
+    background-color: #0056b3;
+  }
+  
